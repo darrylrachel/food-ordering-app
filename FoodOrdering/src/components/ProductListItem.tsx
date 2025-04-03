@@ -26,7 +26,9 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#fff',
     padding: 10,
-    borderRadius: 10,
+    borderRadius: 20,
+    flex: 1,
+    maxWidth: '50%'
   },
 
   title: {
@@ -43,6 +45,7 @@ const styles = StyleSheet.create({
   image: {
     width: '100%',
     aspectRatio: 1,
+    resizeMode: 'contain'
   }
 });
 
